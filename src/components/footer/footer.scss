@@ -1,0 +1,17 @@
+footer{
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        li{
+            margin: 10px auto;
+        }
+    }
+    div{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
