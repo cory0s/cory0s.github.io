@@ -5,12 +5,12 @@ const Footer = props => {
     
     return(
         <footer>
-            <ul>
+            {/* <ul>
                 <li>Linkedin</li>
                 <li>Github</li>
                 <li>Gmail</li>
                 <li>Instagram</li>
-            </ul>
+            </ul> */}
             <div>
                 © {new Date().getFullYear()}, Built with{` `}<a href="https://www.gatsbyjs.org">Gatsby</a>
             </div>
