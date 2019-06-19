@@ -1,17 +1,25 @@
 footer{
-    background-color: teal;
+    align-items: flex-end;
+    // border: 2px solid green;
     display: flex;
     flex-direction: column;
+    font-family: 'Concert One', cursive;
+    font-size: 12px;
+    height: 5%;
+    padding-bottom: 0px;
+
     ul{
         display: flex;
         flex-direction: row;
         list-style: none;
-        li{
-            margin: 10px auto;
-        }
     }
     div{
-        margin-bottom: 10px;
+        // border: 2px solid black;
+        padding-right: 5px;
         text-align: center;
+    }
+    a{
+        color: red;
+        text-decoration: none;
     }
 }
