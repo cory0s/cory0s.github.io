@@ -4,8 +4,11 @@ nav{
     grid-row: 2 / span 1;
 
     .links{
+        // border: solid green 2px;
         display: flex;
         flex-direction: column;
-        font-size: 1.1em;
+        font-family: 'Poiret One', cursive;
+        font-size: 1.2em;
+        margin: 50% auto;
     }
 }

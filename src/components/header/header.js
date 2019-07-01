@@ -4,7 +4,8 @@ import './header.scss'
 
 const Header = ({ siteTitle }) => (
   <header>
-    <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|Poiret+One&display=swap" rel="stylesheet"/>
+    <div id="orange"></div>  
   </header>
 )
 
