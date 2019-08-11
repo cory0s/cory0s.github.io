@@ -1,18 +1,12 @@
 h1{
     border: solid red 3px;
-    height: 100%;
+    font-family: 'Concert One', cursive;
+    text-align: center;
     width: 100%;
 }
 
 .projects{
-    align-content: center;
-    border: 3px solid black;
+    border: solid 2px green;
     display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-
-    div{
-        // border: 3px solid green;
-    }
+    font-family: 'Poiret One', cursive;
 }

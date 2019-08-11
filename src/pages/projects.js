@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 const Projects = () => (
   <Layout>
     <SEO title="Projects" />
-    <Link to="/">Home</Link>
     <Work />
   </Layout>
 )
