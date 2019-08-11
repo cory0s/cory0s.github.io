@@ -1,12 +1,25 @@
-h1{
-    border: solid red 3px;
+h2{
     font-family: 'Concert One', cursive;
+    font-size: 1.5em;
     text-align: center;
     width: 100%;
 }
 
 .projects{
-    border: solid 2px green;
     display: flex;
     font-family: 'Poiret One', cursive;
+    height: 80vh;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
+    div{
+        border: 1px solid #BFBFBF;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        margin: 30px;
+        padding: 5px;
+        width: 33%;
+    }
+    img{
+        height: 50px;
+    }
 }

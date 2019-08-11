@@ -16,7 +16,7 @@ const Name = props => {
           </div>
           <Typing startDelay={2000}>
           <div id="traits">
-            <p>I'm a software developer who loves <span id="red">JavaScript</span></p>
+            <p>I'm a software developer in love with <span id="red">JavaScript</span></p>
             <Typing.Delay ms={2000} />
             <p>...and bicycle adventures.</p>
             <Typing.Delay ms={2000} />

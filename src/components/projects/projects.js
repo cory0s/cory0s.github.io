@@ -8,15 +8,14 @@ import './projects.scss';
 const Projects = props => {
 
     return(
-        <div class="container1">
-            <h1>Projects</h1>
-            <p>Here are some cool software projects I've been a part of.</p>
-            <div class="projects">
-                <Curve />
-                <Bandwagon />
-                <Chekov />
-            </div>
+        <>
+        <h2>Here are some cool software projects I've been a part of.</h2>
+        <div class="projects">
+            <Curve />
+            <Bandwagon />
+            <Chekov />
         </div>
+        </>
     );
 }
 
