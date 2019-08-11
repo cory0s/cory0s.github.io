@@ -9,9 +9,7 @@ import Name from '../components/name/name'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Nav />
     <Name />
-    <Image />
   </Layout>
 )
 
