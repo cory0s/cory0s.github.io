@@ -6,7 +6,7 @@ const Name = props => {
     
     return(
         <div class="name">
-          <Typing startDelay={3000} speed={40}>
+          <Typing startDelay={2000} speed={40}>
 
           <div id="intro">
             <p>hi!</p>
@@ -20,8 +20,6 @@ const Name = props => {
             <p>I'm a software developer who loves <b>JavaScript</b></p>
             <Typing.Delay ms={1000} />
             <p>...and bicycle adventures.</p>
-            <Typing.Delay ms={1000} />
-            <p id="tag-line">Let's build something together!</p>
           </div>
           </Typing>
         </div>
