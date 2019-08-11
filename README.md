@@ -1,2 +1,2 @@
-# personal-portfolio
-Professional portfolio
+# Personal Website
+In progress personal site utilizing GatsbyJS.
