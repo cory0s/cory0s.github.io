@@ -2,19 +2,14 @@ import React from 'react';
 import './nav.scss';
 import { Link } from 'gatsby'
 
-const Nav = props => {
-  const style = {
-    textDecoration: 'none',
-    color: 'black'
-  }
-    
+const Nav = props => {    
     return(
       <nav>
         <div class="links">
-          <Link to="/projects" style={style} activeStyle={{color: 'orange'}}>Projects</ Link>
-          <Link to="about" style={style}>About</ Link>
-          <Link to="life" style={style}>Life</ Link>
-          <Link to="contact" style={style}>Contact</ Link>
+          <Link to="/projects" activeStyle={{color: 'orange'}}>Projects</ Link>
+          <Link to="about">About</ Link>
+          <Link to="life">Life</ Link>
+          <Link to="contact">Contact</ Link>
         </div>
       </nav>
     )
