@@ -10,19 +10,11 @@ const Projects = props => {
     return(
         <div class="container1">
             <h1>Projects</h1>
+            <p>Here are some cool software projects I've been a part of.</p>
             <div class="projects">
-                <div id="project1">
-                    <p>Curve</p>
-                    <Curve />
-                </div>
-                <div id="project2">
-                    <p>Bandwagon</p>
-                    <Bandwagon />
-                </div>
-                <div id="project3">
-                    <p>Chekov</p>
-                    <Chekov />
-                </div>
+                <Curve />
+                <Bandwagon />
+                <Chekov />
             </div>
         </div>
     );
