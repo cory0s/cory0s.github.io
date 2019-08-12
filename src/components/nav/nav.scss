@@ -1,13 +1,22 @@
 nav{
-    display: flex;
-    font-family: 'Poiret One', cursive;
-    font-size: 1.2em;
-    justify-content: flex-end;
+    border-bottom: solid 1px black;
     .links{
+        align-items: flex-end;
+        display: flex;
+        font-family: 'Poiret One', cursive;
+        justify-content: space-between;
+        margin: 10px auto 10px;
         a{
             color: black;
-            margin: 20px 20px;
             text-decoration: none;
+        }
+        #my-name{
+            text-emphasis: bold;
+            font-size: 1.8em;
+            font-family: 'Staatliches', cursive;
+        }
+        .individual-link{
+            font-size: 1em;
         }
     }
 }

@@ -1,24 +1,14 @@
 .name{
+    background-image: url('../../images/main-page.jpg');
+    background-size: cover;
     display: flex;
-    flex-direction: column;
+    height: 95%;
     font-family: 'Concert One', cursive;
-    #intro{
+    justify-content: center;
+    width: 100%;
+
+    .main-left{
+        color: lightgrey;
         font-size: 2em;
-        margin: 0px;
-        p{
-            margin: 0px;
-        }
-    }
-    #traits{
-        font-family: 'Poiret One', cursive;
-        font-size: 1.3em;
-        padding-left: 10px;
-        p{
-            margin: 5px 0px;
-        }
-        #red{
-            color: red;
-            font-weight: bold;
-        }
     }
 }
