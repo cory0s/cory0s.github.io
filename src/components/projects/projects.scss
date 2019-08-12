@@ -1,25 +1,33 @@
 h2{
-    font-family: 'Concert One', cursive;
+    font-family: 'Bree Serif', serif;
     font-size: 1.5em;
-    text-align: center;
     width: 100%;
 }
 
 .projects{
     display: flex;
     font-family: 'Poiret One', cursive;
-    height: 80vh;
+    height: 80%;
     justify-content: space-evenly;
     margin: auto;
+    overflow: auto;
     width: 90%;
     div{
         border: 1px solid #BFBFBF;
-        box-shadow: 10px 10px 5px #aaaaaa;
-        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
         padding: 5px;
         width: 33%;
-    }
-    img{
-        height: 50px;
+        .project-description{
+            margin: 10px;
+            font-size: 1.2em;
+            height: 20%;
+        }
+        img{
+            display: block;
+            margin: 0px auto;
+            width: 80%;
+        }
     }
 }

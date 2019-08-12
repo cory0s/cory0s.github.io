@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
+import CurveImage from '../../images/curve.png'
 
 const Curve = () => (
   <StaticQuery
@@ -18,17 +19,17 @@ const Curve = () => (
     render={data => 
       <div class='curve'>                
           <h2>Curve</h2>
-          <p>Curve is an employee development and metrics application. It was a one week MVP sprint accomplished by a talented team of individuals and written in both ReactJS and C#/.NET. This project gave me an introduction to what working on a real multidisciplinary development team is like. I worked as part of the front end team figuring out how to structure and implement GraphQL queries and creating extensive project documentation using DocZ.</p>
-          <h3>Project Tools:</h3>
+          <p class="project-description">Curve is an employee development and metrics application. It was a one week MVP sprint for 4 teams utilzing both JavaScript and C#/.NET.</p>
+          {/* <h3>Project Tools:</h3>
           <ul>
               <li>GatsbyJS</li>
               <li>GraphQL</li>
               <li>D3</li>
-              <li>DocZ</li>
               <li>MongoDB</li>
 
-          </ul>
-            {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
+          </ul> */}
+          <img src={CurveImage}/>
+          {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
       </div>
     }
   />

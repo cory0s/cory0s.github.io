@@ -6,10 +6,9 @@ const Nav = props => {
     return(
       <nav>
         <div class="links">
-          <Link to="/">Home</Link>
-          <Link to="/projects" activeStyle={{color: 'orange'}}>Projects</ Link>
-          <Link to="about">About Me</ Link>
-          <Link to="contact">Contact</ Link>
+          <Link to="/projects" class="individual-link">Projects</ Link>
+          <Link to="/" id="my-name">Cory Henderson</Link>
+          <Link to="about" class="individual-link">About</ Link>
         </div>
       </nav>
     )
