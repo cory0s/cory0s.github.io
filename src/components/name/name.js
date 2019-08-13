@@ -11,8 +11,11 @@ const Name = props => {
               <p>i'm cory</p>
             </div>
             <div class="traits">
+            <Typing speed={50}>
+              <Typing.Delay ms={1500} />
               <p>i'm a full-stack developer</p>
               <p>located in seattle, wa</p>
+            </Typing>
             </div>
         </div>
     )
