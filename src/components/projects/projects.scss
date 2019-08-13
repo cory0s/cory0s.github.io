@@ -24,17 +24,17 @@ h2{
             font-size: 1.2em;
             height: 20%;
         }
-        img{
-            display: block;
-            margin: 10px auto;
-            width: 80%;
+        figure{
+            border: solid red 4px;
+            // height: 100%;
+            img{
+                width: 100%;
+                display: block;
+                margin: 10px auto;
+            }
         }
     }
     a:hover{
-        // background-color: #E27D60;
-        // border: 2px solid red;
-        img{
-            width: 95%;
-        }
+
     }
 }

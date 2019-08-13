@@ -18,7 +18,7 @@ const Chekov = () => (
       }
     `}
     render={data => 
-      <div class='checkov'>
+      <article class='checkov'>
           <h2>Chekov</h2>
           <p class="project-description">A to do list application built in vanilla JavaScript.</p>
           {/* <h3>Project tools:</h3>
@@ -27,9 +27,11 @@ const Chekov = () => (
               <li>HTML5</li>
               <li>CSS</li>
           </ul> */}
-          <img src={ChekovImage}/>
+          <figure>
+            <img src={ChekovImage}/>
+          </figure>
         {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
-      </div>
+      </article>
     }
   />
 )

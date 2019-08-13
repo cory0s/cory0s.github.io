@@ -17,7 +17,7 @@ const Curve = () => (
       }
     `}
     render={data => 
-      <div class='curve'>                
+      <article class='curve'>                
           <h2>Curve</h2>
           <p class="project-description">An employee development and metrics application.</p>
           {/* <h3>Project Tools:</h3>
@@ -28,9 +28,11 @@ const Curve = () => (
               <li>MongoDB</li>
 
           </ul> */}
-          <img src={CurveImage}/>
+          <figure>
+            <img src={CurveImage}/>
+          </figure>
           {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
-      </div>
+      </article>
     }
   />
 )
