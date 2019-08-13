@@ -5,18 +5,34 @@ import Curve from './curve.js';
 import './projects.scss';
 
 
-const Projects = props => {
+class Projects extends React.Component{
 
-    return(
-        <>
-        <h2>Here are some cool software projects I've been a part of.</h2>
-        <div class="projects">
-            <Curve />
-            <Bandwagon />
-            <Chekov />
+    constructor(props){
+        super(props);
+        this.state={
+            current: '',
+        };
+    }
+
+    setCurrent = (e) => {
+        e.preventDefault();
+        console.log(this.state);
+        console.log(e.target.className);
+        this.setState({current: e.target.class});
+        console.log(this.state);
+    }
+
+    render(){
+        return(
+        <div class="container">
+            <div class="projects">
+                <a onClick={this.setCurrent} className="curve"><Curve /></a>
+                <a onClick={this.setCurrent} className="bandwagon"><Bandwagon /></a>
+                <a onClick={this.setCurrent} className="chekov"><Chekov /></a>
+            </div>
         </div>
-        </>
-    );
+        )
+    };
 }
 
 export default Projects;

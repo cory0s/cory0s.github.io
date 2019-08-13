@@ -12,11 +12,11 @@ h2{
     margin: auto;
     overflow: auto;
     width: 90%;
-    div{
+    a{
         border: 1px solid #BFBFBF;
         display: flex;
         flex-direction: column;
-        margin: 20px;
+        margin: 10px;
         padding: 5px;
         width: 33%;
         .project-description{
@@ -26,8 +26,15 @@ h2{
         }
         img{
             display: block;
-            margin: 0px auto;
+            margin: 10px auto;
             width: 80%;
+        }
+    }
+    a:hover{
+        // background-color: #E27D60;
+        // border: 2px solid red;
+        img{
+            width: 95%;
         }
     }
 }
