@@ -19,7 +19,7 @@ const Bandwagon = () => (
     render={data => 
       <div class='bandwagon'>
         <h2>Bandwagon</h2>
-        <p class="project-description">Bandwagon is an application which provides upcoming concert recommendations for bands related to user taste. It utilizes RESTful calls to the TasteDive and Ticketmaster APIs.</p>
+        <p class="project-description">Find concerts based on user taste.</p>
         <img src={BandwagonImage}/>
         {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
       </div>
