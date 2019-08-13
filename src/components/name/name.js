@@ -1,24 +1,22 @@
 import React from 'react';
 import './name.scss';
 import Typing from 'react-typing-animation';
-import MainImage from '../../images/main-page.jpg'
 
 const Name = props => {
     
     return(
         <div class="name">
-          <div class="main-left">
-            <div id="intro">
+            <div class="intro">
               <p>hi!</p>
-              <p>i'm cory henderson</p>
+              <p>i'm cory</p>
             </div>
-            <div id="traits">
-              <p>I'm a full stack developer exploring the world of <span id="red">JavaScript</span></p>
+            <div class="traits">
+            <Typing speed={50}>
+              <Typing.Delay ms={1500} />
+              <p>i'm a full-stack developer</p>
+              <p>located in seattle, wa</p>
+            </Typing>
             </div>
-          </div>
-          <div class="main-right">
-            {/* <img src={MainImage}/> */}
-          </div>
         </div>
     )
 }

@@ -1,0 +1,16 @@
+.footer-wrapper{
+    border-top: solid 1px black;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px;
+    ul{
+        display: flex;
+        list-style-type: none;
+        li{
+            margin: 0px 10px;
+            img{
+                height: 25px;
+            }
+        }
+    }
+}
