@@ -3,12 +3,30 @@
     background-size: cover;
     display: flex;
     height: 95%;
-    font-family: 'Concert One', cursive;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-start;
+    width: 95%;
 
-    .main-left{
-        color: lightgrey;
+    .intro{
+        color: #E5EAC9;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Righteous', cursive;
+        font-size: 6em;
+        justify-content: flex-end;
+        p{
+            margin: 0px 10px;
+        }
+    }
+    .traits{
+        align-items: flex-end;
+        color: #E5EAC9;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Righteous', cursive;
         font-size: 2em;
+        margin-top: 10%;
+        p{
+            margin: 0px;
+        }
     }
 }
