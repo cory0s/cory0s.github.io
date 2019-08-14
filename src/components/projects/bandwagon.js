@@ -19,6 +19,10 @@ const Bandwagon = () => (
     render={data => 
       <div className='bandwagon'>
         <h2>Bandwagon</h2>
+        <div id="links">
+            <a href="https://github.com/band-camp/301-final-project">Github</a>
+            <a href="http://bandwagon.events/">Deployed Site</a>
+        </div>
         <p className="project-description">Find concerts based on user taste.</p>
         <figure>
           <img src={BandwagonImage} alt="bandwagon"/>
