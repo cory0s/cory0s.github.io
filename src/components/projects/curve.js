@@ -17,9 +17,9 @@ const Curve = () => (
       }
     `}
     render={data => 
-      <article class='curve'>                
+      <div className='curve'>                
           <h2>Curve</h2>
-          <p class="project-description">An employee development and metrics application.</p>
+          <p className="project-description">An employee development and metrics application.</p>
           {/* <h3>Project Tools:</h3>
           <ul>
               <li>GatsbyJS</li>
@@ -29,10 +29,10 @@ const Curve = () => (
 
           </ul> */}
           <figure>
-            <img src={CurveImage}/>
+            <img src={CurveImage} alt="curve"/>
           </figure>
           {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
-      </article>
+      </div>
     }
   />
 )

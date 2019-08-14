@@ -24,11 +24,11 @@ class Projects extends React.Component{
 
     render(){
         return(
-        <div class="container">
-            <div class="projects">
-                <a onClick={this.setCurrent} className="curve"><Curve /></a>
-                <a onClick={this.setCurrent} className="bandwagon"><Bandwagon /></a>
-                <a onClick={this.setCurrent} className="chekov"><Chekov /></a>
+        <div className="container">
+            <div className="projects">
+                <article onClick={this.setCurrent} className="curve"><Curve /></article>
+                <article onClick={this.setCurrent} className="bandwagon"><Bandwagon /></article>
+                <article onClick={this.setCurrent} className="chekov"><Chekov /></article>
             </div>
         </div>
         )

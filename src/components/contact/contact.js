@@ -7,7 +7,7 @@ import Github from '../../images/github.png';
 const Contact = props => {
 
     return(
-        <div class="footer-wrapper">
+        <div className="footer-wrapper">
 
         <ul>
             <li><a href="mailto: chenderson19899@gmail.com"><img src={Gmail} alt="gmail-logo"/></a></li>

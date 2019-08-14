@@ -17,14 +17,14 @@ const Bandwagon = () => (
       }
     `}
     render={data => 
-      <article class='bandwagon'>
+      <div className='bandwagon'>
         <h2>Bandwagon</h2>
-        <p class="project-description">Find concerts based on user taste.</p>
+        <p className="project-description">Find concerts based on user taste.</p>
         <figure>
-          <img src={BandwagonImage}/>
+          <img src={BandwagonImage} alt="bandwagon"/>
         </figure>
         {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
-      </article>
+      </div>
     }
   />
 )
