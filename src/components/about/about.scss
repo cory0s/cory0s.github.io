@@ -5,21 +5,4 @@
         font-size: 1.3em;
         text-emphasis: bold;
     }
-    .other-things{
-        display: flex;
-        .hobbies{
-            border: solid 2px blue;
-            width: 50%;
-            p{
-                margin: 0px;
-            }
-        }
-        .personal-photo{
-            border: solid 2px orange;
-            width: 50%;
-            img{
-                height: 50px;
-            }
-        }
-    }
 }

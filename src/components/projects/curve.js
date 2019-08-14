@@ -19,6 +19,10 @@ const Curve = () => (
     render={data => 
       <div className='curve'>                
           <h2>Curve</h2>
+          <div id="links">
+            <a href="https://github.com/CodeFellows-Curve/curve-front-end">Github</a>
+            <a href="https://codefellows-curve.netlify.com/">Deployed Site</a>
+          </div>
           <p className="project-description">An employee development and metrics application.</p>
           {/* <h3>Project Tools:</h3>
           <ul>

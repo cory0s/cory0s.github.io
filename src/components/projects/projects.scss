@@ -1,6 +1,7 @@
 h2{
     font-family: 'Bree Serif', serif;
     font-size: 1.5em;
+    margin-bottom: 0px;
     width: 100%;
 }
 
@@ -9,9 +10,19 @@ h2{
     font-family: 'Poiret One', cursive;
     height: 80%;
     justify-content: space-evenly;
-    margin: auto;
+    margin: 0px auto;
     overflow: auto;
     width: 90%;
+    #links{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2em;
+        a{
+            // text-emphasis: bold;
+            // text-decoration: none;
+            // margin-left: 10px;
+        }
+    }
     article{
         border: 1px solid #BFBFBF;
         display: flex;
@@ -25,7 +36,6 @@ h2{
             height: 20%;
         }
         figure{
-            border: solid red 4px;
             // height: 100%;
             img{
                 width: 100%;
