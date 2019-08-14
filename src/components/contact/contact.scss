@@ -4,12 +4,16 @@
     justify-content: center;
     margin: 0px auto 0px;
     ul{
+        border: solid red 2px;
         display: flex;
+        justify-content: center;
         list-style-type: none;
+        padding: 0px;
         li{
-            margin: 0px 10px;
+            border: solid 2px green;
+            margin: 0px 15px;
             img{
-                height: 25px;
+                height: 30px;
             }
         }
     }
