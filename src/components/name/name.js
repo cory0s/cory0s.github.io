@@ -5,12 +5,12 @@ import Typing from 'react-typing-animation';
 const Name = props => {
     
     return(
-        <div class="name">
-            <div class="intro">
+        <div className="name">
+            <div className="intro">
               <p>hi!</p>
               <p>i'm cory</p>
             </div>
-            <div class="traits">
+            <div className="traits">
             <Typing speed={50}>
               <Typing.Delay ms={2000} />
               <p>i'm a full-stack developer</p>
