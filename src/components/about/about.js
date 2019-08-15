@@ -1,7 +1,5 @@
 import React from 'react';
-import Img from 'gatsby-image';
 import './about.scss';
-import { StaticQuery, graphql} from 'gatsby';
 import Me from '../../images/me.jpg';
 
 const About = (props) => {
