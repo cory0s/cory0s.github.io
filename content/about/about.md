@@ -1,6 +1,6 @@
 ---
-title: About Me
-path: /about
+title: "About Me"
+path: "/aboutme"
 ---
 
 ## My Background
