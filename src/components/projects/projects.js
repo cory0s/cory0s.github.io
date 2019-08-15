@@ -26,9 +26,9 @@ class Projects extends React.Component{
         return(
         <div className="container">
             <div className="projects">
-                <article onClick={this.setCurrent} className="curve"><Curve /></article>
-                <article onClick={this.setCurrent} className="bandwagon"><Bandwagon /></article>
-                <article onClick={this.setCurrent} className="chekov"><Chekov /></article>
+                <article className="curve"><Curve /></article>
+                <article className="bandwagon"><Bandwagon /></article>
+                <article className="chekov"><Chekov /></article>
             </div>
         </div>
         )
