@@ -26,9 +26,9 @@ class Projects extends React.Component{
         return(
         <div className="container">
             <div className="projects">
-                <article className="curve"><Curve /></article>
-                <article className="bandwagon"><Bandwagon /></article>
-                <article className="chekov"><Chekov /></article>
+                <a href="/curve"><Curve /></a>
+                <a href="/bandwagon"><article className="bandwagon"><Bandwagon /></article></a>
+                <a href="/chekov"><article className="chekov"><Chekov /></article></a>
             </div>
         </div>
         )
