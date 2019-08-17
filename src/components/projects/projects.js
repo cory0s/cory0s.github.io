@@ -14,14 +14,6 @@ class Projects extends React.Component{
         };
     }
 
-    setCurrent = (e) => {
-        e.preventDefault();
-        console.log(this.state);
-        console.log(e.target.className);
-        this.setState({current: e.target.class});
-        console.log(this.state);
-    }
-
     render(){
         return(
         <div className="container">
