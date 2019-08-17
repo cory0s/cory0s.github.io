@@ -21,13 +21,6 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `src`,
-    //     path: `${__dirname}/src`,
-    //   },
-    // },
     
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
