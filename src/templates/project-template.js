@@ -9,7 +9,6 @@ export default function Template({ data }){
     return(
         <Layout>
             <div class="container">
-                <h2>{project.frontmatter.title}</h2>
                 <div dangerouslySetInnerHTML={{__html: project.html}} />
             </div>
         </ Layout>
