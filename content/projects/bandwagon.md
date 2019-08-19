@@ -2,10 +2,12 @@
 title: "Bandwagon"
 path: "/bandwagon"
 ---
-[Deployed Site](http://bandwagon.events)
-[Github](https://github.com/band-camp/301-final-project)
 
 ## Bandwagon Concert Finder
+[Deployed Site](http://bandwagon.events)  
+[Github](https://github.com/band-camp/301-final-project)  
+
+### Project Overview
 The Bandwagon app uses the TasteDive and Ticketmaster APIs to provide concert recommendations for users based on personal taste. The application was built by a team of four software development students over a period of 5 days.
 
 ### Personal Contributions
