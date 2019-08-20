@@ -3,8 +3,8 @@ title: "Curve"
 path: "/curve"
 ---
 
-### Curve Employee Metrics
-[Deployed Site](https://codefellows-curve.netlify.com/)  
+## Curve Employee Metrics
+[Deployed Site](https://codefellows-curve.netlify.com)  
 [Github](https://github.com/CodeFellows-Curve/curve-front-end/)  
 
 ### Project Overview
