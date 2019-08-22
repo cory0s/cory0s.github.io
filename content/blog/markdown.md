@@ -10,28 +10,32 @@ A powerful feature of the JAMstack approach to development is the usage of dynam
 ## Gatsby Features
 Gatsby is a static site generator layered on top of React. It offers the speed and performance of a preloaded static site, but still enables the rich dynamic experience of your typical React application. It also comes with some pretty neat plugins which make markdown injection into your website a breeze.
 
-In order to read in content files (.md) we will need to use two Gatsby plugins. First we will need to install two packages: `npm install gatsby-transformer-remark gatsby-source-filesystem`. The filesystem will enable us to target where our desired content is stored and the transformer-remark plugin will create node objects for each content/.md file it finds in the locations specified by the filesystem. Once the content nodes are created, we can query for the markdown data upfront using GraphQL, and inject it into our React components.
+In order to read in content files (.md) we will need to use two Gatsby plugins. First we will need to install two packages:    
+
+`npm install gatsby-transformer-remark gatsby-source-filesystem`    
+
+ The filesystem will enable us to target where our desired content is stored and the transformer-remark plugin will create node objects for each content/.md file it finds in the locations specified by the filesystem. Once the content nodes are created, we can query for the markdown data upfront using GraphQL, and inject it into our React components.
 
 ## Setting up gatsby-source-filesystem
 In our gatsby-config.js folder, we can specify where we want our filesystem to search. 
 
 ```javascript
-  plugins: [
+plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
+    resolve: `gatsby-source-filesystem`,
+    options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
+    },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
+    resolve: `gatsby-source-filesystem`,
+    options: {
         name: `content`,
         path: `${__dirname}/content`,
-      },
     },
-  ],
+    },
+],
 ```
 
 The above script will tell our filesystem to create directories for our images and content which will tell the markdown transformer where to look for content files. After scrubbing these filepaths for relevant file types, the transformer will create a node object for each file which can then be queried and used in our React components.
