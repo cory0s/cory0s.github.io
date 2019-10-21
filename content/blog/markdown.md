@@ -162,7 +162,7 @@ exports.createPages = ({actions, graphql}) => {
     })
 ```
     
-Once we receive the response object from our GraphQL query, we can pull out the edges attribute of the allMarkdownRemark object. This will be an array containing node objects for each markdown file found. Finally, we can call the createPage() function using each nodes path and the desired rendered componenet. The desired path (i.e. /blog, /projects, etc.) should be specified at the top of each markdown file. This can be done by simply adding the line `path: /desiredpathname` to the top of your markdown page like so:
+Once we receive the response object from our GraphQL query, we can pull out the edges attribute of the allMarkdownRemark object. This will be an array containing node objects for each markdown file found. Finally, we can call the createPage() function using each node's path and the desired rendered componenet. The desired path (i.e. /blog, /projects, etc.) should be specified at the top of each markdown file. This can be done by simply adding the line `path: /desiredpathname` to the top of your markdown page as seen below:
 
 ```javascript
 ---

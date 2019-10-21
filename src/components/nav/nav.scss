@@ -1,25 +1,28 @@
 nav{
-    border-bottom: solid 1px black;
-    .links{
-        align-items: flex-end;
-        display: flex;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    #name{
+        margin: 5px 40px;
+    }
+    a{
+        color: black;
         font-family: 'Poiret One', cursive;
-        justify-content: space-between;
-        margin: 0px auto 10px;
-        a{
-            color: black;
-            text-decoration: none;
-        }
-        #my-name{
-            text-emphasis: bold;
-            font-size: 1.8em;
-            font-family: 'Staatliches', cursive;
-        }
+        font-size: 1.5em;
+        transition: all 0.5s;
+        text-decoration: none;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+ 
         #individual-link-about{
-            font-size: 1.5em;
+            margin: 5px 40px;
         }
-        #individual-link-projects{
-            font-size: 1.5em;
-        }
+    }
+    a:hover{
+        font-size: 1.6em;
+        font-weight: bold; 
     }
 }

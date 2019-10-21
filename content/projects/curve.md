@@ -5,7 +5,9 @@ path: "/curve"
 
 ## Curve Employee Metrics
 [Deployed Site](https://codefellows-curve.netlify.com)  
-[Github](https://github.com/CodeFellows-Curve/curve-front-end/)  
+[Github](https://github.com/CodeFellows-Curve/curve-front-end/)
+
+![](./images/curve.jpeg)
 
 ### Project Overview
 The Curve application was built by a multidisciplinary project team, over 4 days, using both JavaScript and C#/.NET programming languages.

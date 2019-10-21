@@ -1,9 +1,9 @@
 *{
     box-sizing: border-box;
 }
+
 html,body{
     background-color: #EDEAE5;
-    border: 4px solid black;
     height: 100%;
     margin: 0px auto;
 }
@@ -11,19 +11,19 @@ html,body{
     height: 100%;
 }
 header{
-    height: 10vh;
+    height: 15vh;
     margin: 0px auto;
-    padding-top: 5px;
-    width: 90vw;
+    width: 100%;
 }
 
 main{
     display: flex;
-    height: 80vh;
+    flex-direction: column;
+    height: 100%;
     justify-content: center;
     margin: 0px auto;
     overflow: auto;
-    width: 90vw;
+    width: 100%;
 }
 
 footer{

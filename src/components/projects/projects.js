@@ -16,13 +16,13 @@ class Projects extends React.Component{
 
     render(){
         return(
-        <div className="container">
-            <div className="projects">
-                <a href="/curve"><Curve /></a>
-                <a href="/bandwagon"><article className="bandwagon"><Bandwagon /></article></a>
-                <a href="/chekov"><article className="chekov"><Chekov /></article></a>
+            <div className="work">
+                <div className="project-cards">
+                    <Curve />
+                    <Bandwagon />
+                    <Chekov />
+                </div>
             </div>
-        </div>
         )
     };
 }
