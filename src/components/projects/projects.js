@@ -2,6 +2,7 @@ import React from 'react';
 import Bandwagon from './bandwagon.js';
 import Chekov from './Chekov.js';
 import Curve from './curve.js';
+import TicTacNode from './tictacnode.js'
 import './projects.scss';
 
 
@@ -16,13 +17,14 @@ class Projects extends React.Component{
 
     render(){
         return(
-        <div className="container">
-            <div className="projects">
-                <a href="/curve"><Curve /></a>
-                <a href="/bandwagon"><article className="bandwagon"><Bandwagon /></article></a>
-                <a href="/chekov"><article className="chekov"><Chekov /></article></a>
+            <div className="work">
+                <div className="project-cards">
+                    <Curve />
+                    <Bandwagon />
+                    <Chekov />
+                    <TicTacNode />
+                </div>
             </div>
-        </div>
         )
     };
 }

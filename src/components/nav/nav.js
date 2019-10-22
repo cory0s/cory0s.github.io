@@ -2,13 +2,13 @@ import React from 'react';
 import './nav.scss';
 import { Link } from 'gatsby'
 
-const Nav = props => {    
+const Nav = () => {    
     return(
-      <nav>
+      <nav>          
+        <Link to="/" id="name">Cory Henderson</ Link>
         <div className="links">
-          <Link to="/projects" id="individual-link-projects">Projects</ Link>
-          <Link to="/" id="my-name">Cory Henderson</Link>
           <Link to="aboutme" id="individual-link-about">About</ Link>
+          {/* <Link to="aboutme" id="individual-link-about">Contact</ Link> */}
         </div>
       </nav>
     )

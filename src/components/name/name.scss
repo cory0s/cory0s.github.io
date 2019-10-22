@@ -1,32 +1,23 @@
-.name{
-    background-image: url('../../images/main-page.jpg');
-    background-size: cover;
+.intro{
+    color: #c1432e;
     display: flex;
-    height: 95%;
-    justify-content: flex-start;
-    width: 95%;
-
-    .intro{
-        color: #E5EAC9;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Righteous', cursive;
-        font-size: 6em;
-        justify-content: flex-end;
-        p{
-            margin: 0px 10px;
-        }
+    flex-direction: column;
+    // font-family: 'Nunito', sans-serif;
+    // font-family: 'Muli', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 3em;
+    height: 50vh;
+    margin: 0px auto;
+    padding-top: 30px;
+    width: 90%;
+    p{
+        margin: 0px 10px;
     }
-    .traits{
-        align-items: flex-end;
-        color: #E5EAC9;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Righteous', cursive;
-        font-size: 2em;
-        margin-top: 10%;
-        p{
-            margin: 0px;
-        }
+}
+
+@media screen and (max-width:700px){
+    .intro{
+        height: 0px;
+        visibility: hidden;
     }
 }

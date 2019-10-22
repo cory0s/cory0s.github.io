@@ -2,20 +2,14 @@ import React from 'react';
 import './name.scss';
 import Typing from 'react-typing-animation';
 
-const Name = props => {
+const Name = () => {
     
     return(
-        <div className="name">
-            <div className="intro">
-              <p>hi!</p>
-              <p>i'm cory</p>
-            </div>
-            <div className="traits">
-            <Typing speed={50}>
-              <Typing.Delay ms={2000} />
-              <p>i'm a full-stack developer</p>
-              <p>located in seattle, wa</p>
-            </Typing>
+        <div className="intro">
+            <div className="intro-me">
+            <p>full stack developer</p>
+            <p>+ designer from</p>
+            <p>seattle, wa</p>
             </div>
         </div>
     )
