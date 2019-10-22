@@ -2,6 +2,7 @@ import React from 'react';
 import Bandwagon from './bandwagon.js';
 import Chekov from './Chekov.js';
 import Curve from './curve.js';
+import TicTacNode from './tictacnode.js'
 import './projects.scss';
 
 
@@ -21,6 +22,7 @@ class Projects extends React.Component{
                     <Curve />
                     <Bandwagon />
                     <Chekov />
+                    <TicTacNode />
                 </div>
             </div>
         )

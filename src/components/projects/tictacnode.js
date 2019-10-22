@@ -1,7 +1,7 @@
 import React from "react"
-import TicTacNodeImage from '../../images/curvelogo.jpeg'
+import TicTacNodeImage from '../../images/tictacnode.png'
 
-const Curve = () => {
+const TicTacNode = () => {
 
     return(
       <article className="tictacnode">
@@ -16,4 +16,4 @@ const Curve = () => {
   )
 }
 
-export default TicTacNode
+export default TicTacNode;

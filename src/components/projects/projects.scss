@@ -8,17 +8,21 @@ h2{
     font-size: 1.5em;
     margin-bottom: 30px;
 }
-
+.work{
+    width: 100%;
+}
 .project-cards{
     display: flex;
-    font-family: 'Poiret One', cursive;
+    flex-wrap: wrap;
+    // font-family: 'Poiret One', cursive;
+    font-family: 'Cabin Condensed', sans-serif;
+    // font-family: 'Nanum Gothic Coding', monospace;
     justify-content: space-evenly;
     margin: 0px auto;
-    overflow: auto;
     width: 90%;
     article{
         padding: 10px;
-        width: 33%;
+        width: 50%;
         p{
             font-size: 1.5em;
             margin: 0px auto;
@@ -34,7 +38,7 @@ h2{
         margin-top: 10px;
         padding: 10px;
         transition: background-color 500ms ease-in-out;
-        width: 90%;
+        width: 100%;
 
         figure{
             margin: 0px auto;
@@ -55,16 +59,23 @@ h2{
     }
 }
 @media screen and (max-width:700px){
+    h2{
+        font-size: 1em;
+    }
     .project-cards{
         display: flex;
         flex-direction: column;
         font-family: 'Poiret One', cursive;
         height: 100%;
         justify-content: flex-start;
-        margin: 10px auto;
+        margin-top: 10px 0px;
         width: 100%;
+        article{
+            width:100%;
+        }
         a{
             margin: 10px auto;
+            padding: 10px;
             width: 90%;
         }
     }

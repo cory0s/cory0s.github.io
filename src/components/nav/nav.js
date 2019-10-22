@@ -8,7 +8,7 @@ const Nav = () => {
         <Link to="/" id="name">Cory Henderson</ Link>
         <div className="links">
           <Link to="aboutme" id="individual-link-about">About</ Link>
-          <Link to="aboutme" id="individual-link-about">Contact</ Link>
+          {/* <Link to="aboutme" id="individual-link-about">Contact</ Link> */}
         </div>
       </nav>
     )

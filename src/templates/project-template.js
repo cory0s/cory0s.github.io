@@ -9,7 +9,7 @@ export default function Template({ data }){
     return(
         <Layout>
             <div class="container">
-                <h1>{project.frontmatter.featuredImage}</h1>
+                <h1>{project.frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{__html: project.html}} />
             </div>
         </ Layout>

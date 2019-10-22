@@ -1,9 +1,7 @@
 ---
-title: "Chekov"
+title: "Chekov To Do App"
 path: "/chekov"
 ---
-
-## Chekov To Do List
 [Deployed Site](https://abc-s.github.io/201-final-project/lists.html)  
 [Github](https://github.com/abc-s/201-final-project/)
 

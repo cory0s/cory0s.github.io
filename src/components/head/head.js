@@ -7,6 +7,7 @@ const Head = () => (
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet" />
   </head>
 )
 
